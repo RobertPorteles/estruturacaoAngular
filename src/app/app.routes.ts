@@ -14,7 +14,7 @@ export const routes: Routes = [
         path : 'criar-usuario', component: CriarUsuario
     },
     {
-        path : 'dashboard', component : Dashboard
+        path : 'dashboard', component : Dashboard, canActivate: [authGuard]
     },
     {
         path : 'agenda', component : Agenda, canActivate: [authGuard]
