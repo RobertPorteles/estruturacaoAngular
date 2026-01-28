@@ -1,1 +1,20 @@
-{}
+{
+    "usuario" : [
+        {
+            "id" : 1,
+            "nome" : "Sergio Mendes",
+            "email" : "sergio.coti@gmail.com",
+            "senha" : "@Admin123"
+        }
+    ],
+    "agenda" : [
+        {
+            "id" : 1,
+            "nome" : "Aula de Angular",
+            "data" : "2026-01-28",
+            "hora" : "07:30",
+            "prioridade" : "Alta",
+            "usuario_id" : 1
+        }
+    ]
+}
